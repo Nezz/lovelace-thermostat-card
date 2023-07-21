@@ -5,8 +5,8 @@ export function cssData(user) {
     overflow: hidden;
     --rail_border_color: transparent;
     --auto_color: rgb(227, 99, 4, 1);
-    --cool_color: rgba(0, 122, 241, 0.6);
-    --cool_colorc: rgba(0, 122, 241, 1);
+    --cool_color: #3bb8ee;
+    --cool_colorc: #3bb8ee;
     --heat_color: #ff8100;
     --heat_colorc: rgb(227, 99, 4, 1);
     --manual_color: #44739e;
