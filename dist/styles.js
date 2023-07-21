@@ -99,7 +99,7 @@ export function cssData(user) {
     --mdc-icon-size: 100%;
   }
   .dialog{
-    background-color:#0000008c;
+    background-color:#000000cc;
     width: 90%;
     height: 90%;
     max-width: 300px;
