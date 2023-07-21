@@ -11,7 +11,7 @@ export function cssData(user) {
     --heat_colorc: rgb(227, 99, 4, 1);
     --manual_color: #44739e;
     --off_color: #8a8a8a;
-    --fan_only_color: #D7DBDD;
+    --fan_only_color: white;
     --dry_color: #efbd07;
     --idle_color: #808080;
     --unknown_color: #bac;
