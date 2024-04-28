@@ -161,7 +161,7 @@ export function cssData(user) {
     min-width: 150px;
     display: block;
     margin: 0 auto;
-    --thermostat-off-fill: #000000c2;
+    --thermostat-off-fill: rgba(255, 255, 255, 0.5);
     --thermostat-path-color: rgba(255, 255, 255, 0.3);
     --thermostat-path-active-color: rgba(255, 255, 255, 0.8);
     --thermostat-path-active-color-large: rgba(255, 255, 255, 1);
