@@ -88,18 +88,17 @@ export function cssData(user) {
   .modes, .mode_color{
     position: absolute;
     max-width: 50px;
-    top: 50%;
-    left: 50%;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    transform: translate(-50%, -50%);
   }
   .modes ha-icon {
     color: var(--mode_color);
     --mdc-icon-size: 100%;
   }
   .dialog{
-    background-color:#000000cc;
+    background-color: rgba(0, 0, 0, 0.5);
     width: 90%;
     height: 90%;
     max-width: 300px;
@@ -111,11 +110,9 @@ export function cssData(user) {
     justify-content: center;
     align-items: center;
     align-content: center;
-    top: 45%;
-    left: 45%;
-    backdrop-filter: blur(6px) grayscale(50%);
+    backdrop-filter: blur(20px);
     box-shadow: 0px 0px 10px 0px #696969;
-    border: 1px solid #ffffff;
+    border: 1px solid #808080;
   }
   .dialog span {
     width:33%;
@@ -161,7 +158,7 @@ export function cssData(user) {
     min-width: 150px;
     display: block;
     margin: 0 auto;
-    --thermostat-off-fill: rgba(255, 255, 255, 0.5);
+    --thermostat-off-fill: var(--ha-card-background);
     --thermostat-path-color: rgba(255, 255, 255, 0.3);
     --thermostat-path-active-color: rgba(255, 255, 255, 0.8);
     --thermostat-path-active-color-large: rgba(255, 255, 255, 1);
